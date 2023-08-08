@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=REM&display=swap");
+.Main {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  font-family: "REM", sans-serif;
+  background-color: #0093e9;
+  background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+}
+
+.Container {
+  border-radius: 15px;
+  height: 500px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+}
+img {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+}
+.title {
+  margin-top: 0px;
+}
+.artist {
+  margin-top: 0px;
+}
+.btns {
+  font-size: 40px;
+  gap: 40px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
